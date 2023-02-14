@@ -1,0 +1,49 @@
+GET  http://localhost:5000/users
+
+###
+GET  http://localhost:5000/users/634a3283720535ffc0026d3d
+
+
+###
+POST http://localhost:5000/users
+Content-Type: application/json
+
+{
+    "nama" : "Katana",
+    "email" : "katana@gmail1.com",
+    "gender" : "Female"
+}
+
+###
+PATCH  http://localhost:5000/users/634a3283720535ffc0026d3d
+Content-Type: application/json
+
+{
+    "nama" : "KatanaEdit",
+    "email" : "katana@gmail1.com",
+    "gender" : "Female"
+}
+
+###
+DELETE  http://localhost:5000/users/634a3283720535ffc0026d3d
+
+###
+POST http://localhost:5000/register
+Content-Type: application/json
+
+{
+    "nama" : "Katana",
+    "email" : "katana@gmail1.com",
+    "password" : "Female"
+}
+
+
+###
+PUT http://localhost:5000/film/3b3a34122c845ef0ed0ed97
+Content-Type: application/json
+
+{
+    "nama" : "tes",
+    "genre" : "katana@gmail1.com",
+    "deskripsi" : "Female"
+}
